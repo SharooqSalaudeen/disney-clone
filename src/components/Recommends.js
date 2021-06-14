@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { useSelector, useSlector } from "react-redux";
+import { useSelector } from "react-redux";
 import { selectRecommend } from "../features/movie/movieSlice";
 
 function Recommends() {
